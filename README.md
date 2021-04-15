@@ -1,11 +1,11 @@
-以LSTM文件夹为例：  
-  model.png: 模型结构  
-  LSTMresults: 模型预测结果  
-  results：在本地运行py，结果会生成在results文件夹   
-Evaluate文件夹：计算预测结果的各项评估指标（其实里面大多数指标没有用到）  
-训练数据：  
-  不加蛋白质的数据：0507ligand_pro_15cutways.txt  
-  第一列是完整分子的SMILES序列，第二列是裁切后分子的SMILES序列。 
-  加入蛋白质的数据：0525ligand_pro_15cutways.txt  
-  第一列是完整分子的SMILES序列，第二列是裁切后分子的SMILES序列，第三列是蛋白质序列。 
+### Take the LSTM folder as an example
+- model.png: model  
+- LSTMresults: Model architecture diagram  
+- results：The results are saved in the Results folder    
+- Evaluate folder：Evaluation indicators 
+###：  Training 
+  - No protein data：0507ligand_pro_15cutways.txt  
+   The first column is an Smiles sequence of the intact molecule, and the second column is an Smiles sequence of the cropped molecule
+  - dataset with protein data：0525ligand_pro_15cutways.txt  
+  The first column is an Smiles sequence of the intact molecule, the second column is an Smiles sequence of the clipped molecule, and the third column is a protein sequence. 
 
