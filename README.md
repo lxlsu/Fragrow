@@ -1,4 +1,4 @@
-### LSTM folder
+### LSTM
 - model.png: model  
 - LSTMresults: Model architecture diagram  
 - results：The results are saved in the Results folder    
