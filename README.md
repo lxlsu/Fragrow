@@ -1,5 +1,5 @@
 ### LSTM
-- model.png: model  
+- Lstm_model.png: model  
 - LSTMresults: Model architecture diagram  
 - results：The results are saved in the Results folder    
 - Evaluate folder：Evaluation indicators   
