@@ -10,7 +10,6 @@ layers : 3
 plot_every : 500
 max length : 70
 min length : 25
-说明:0507ligand_15cutways.txt 加入n_layers dropout
 ===============================
 Reading lines..
 Read 28452 sentence pairs
